@@ -1,0 +1,54 @@
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .LOGO_DIV {
+        img {
+            width: 300px;
+            margin-top: 20px;
+        }
+    }
+
+    button {
+        background-color: red;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+
+    }
+
+    p {
+        color: white;
+    }
+
+    .son_hisse {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        justify-content: space-between;
+
+        .son_noqte {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+
+                a {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

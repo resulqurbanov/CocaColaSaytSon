@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .nav {
+  width: 100%;
+  background: #000;
+  position: fixed;
+  z-index: 1;
+}
+header .nav .navbar {
+  max-width: 1536px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px 25px 30px;
+}
+header .nav .navbar .navbar_hamburger .fa-bars {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+header .nav .navbar .navbar_hamburger .fa-x {
+  color: red;
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+header .nav .navbar .navbar_hamburger .navbar_fixed {
+  width: 300px;
+  height: 93vh;
+  position: fixed;
+  background: #000;
+  left: 0;
+  bottom: 0;
+  display: none;
+  opacity: 0.9;
+}
+header .nav .navbar .navbar_hamburger .navbar_fixed ul li {
+  color: white;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+header .nav .navbar .navbar_logo img {
+  width: 221px;
+  height: 36px;
+  cursor: pointer;
+}
+header .nav .navbar .navbar_searc i {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+header .nav .navbar .navbar_searc input {
+  display: none;
+}
+
+header {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .LOGO_DIV img {
+  width: 300px;
+  margin-top: 20px;
+}
+footer button {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+footer p {
+  color: white;
+}
+footer .son_hisse {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+footer .son_hisse .son_noqte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+footer .son_hisse .son_noqte ul {
+  display: flex;
+  flex-direction: row;
+}
+footer .son_hisse .son_noqte ul a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+}
+main .ilk_hisse {
+  width: 100%;
+  background-image: url("/assect/img/new-coca-cola-slogan-section-homepage-desktop-1600.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+main .sekiller .img1 {
+  overflow: hidden !important;
+  width: 100%;
+  display: flex;
+}
+main .sekiller .img1 .big_img {
+  overflow: hidden !important;
+  width: 55%;
+}
+main .sekiller .img1 .img1_ic_hisse {
+  overflow: hidden !important;
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+}
+main .sekiller .img2 {
+  overflow: hidden !important;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .sekiller .img2 .a3lu_img {
+  overflow: hidden !important;
+  width: 33.33%;
+}
+main .sekiller img:hover {
+  transform: scale(1.3);
+  transition: 3s;
+}
+main .melumat {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .melumat .tamhisse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  flex-direction: column;
+}
+main .melumat .tamhisse .axtaris {
+  display: flex;
+  flex-direction: row;
+}
+main .melumat .tamhisse .axtaris p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+main .melumat img {
+  cursor: pointer;
+}
